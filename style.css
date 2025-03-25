@@ -1,6 +1,115 @@
-<style>
-    body { font-family: Arial, sans-serif; margin: 20px; }
-    .container { max-width: 800px; margin: auto; }
-    h1 { color: #003087; }
-    h2 { color: #d81e5b; }
-</style>
+/* Import Google Fonts for clean, modern typography */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333; /* Dark text for readability */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Comfortable line spacing */
+}
+
+.container {
+    max-width: 800px; /* Keeps content readable and not too wide */
+    margin: 0 auto; /* Centers the content */
+    padding: 20px; /* Adds breathing room */
+    background-color: #fff; /* White background for content area */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #222; /* Slightly darker for emphasis */
+    margin-bottom: 20px; /* Spacing below headings */
+}
+
+h1 {
+    font-size: 2.5rem; /* Large for main titles */
+    font-weight: 600; /* Bold for prominence */
+}
+
+h2 {
+    font-size: 2rem; /* Medium for section titles */
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5rem; /* Smaller for subsections */
+    font-weight: 600;
+}
+
+/* Paragraphs */
+p {
+    font-size: 1rem; /* Standard size for body text */
+    margin-bottom: 20px; /* Spacing between paragraphs */
+}
+
+/* Links */
+a {
+    color: #0066cc; /* Blue for visibility */
+    text-decoration: underline; /* Underline for clarity */
+}
+
+a:hover {
+    color: #004080; /* Darker blue on hover */
+}
+
+/* Lists */
+ul, ol {
+    margin: 20px 0; /* Spacing around lists */
+    padding-left: 20px; /* Indentation for bullets/numbers */
+}
+
+li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+/* Footer */
+footer {
+    text-align: center; /* Centered text */
+    margin-top: 40px; /* Spacing above footer */
+    padding: 20px; /* Padding inside footer */
+    background-color: #f1f1f1; /* Light gray background */
+    font-size: 0.9rem; /* Slightly smaller text */
+    color: #666; /* Subtle text color */
+}
+
+/* Buttons (optional, for calls to action) */
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Comfortable clickable area */
+    background-color: #0066cc; /* Matches link color */
+    color: #fff; /* White text for contrast */
+    text-decoration: none; /* No underline */
+    border-radius: 5px; /* Rounded corners */
+    font-weight: 600; /* Bold text */
+}
+
+.button:hover {
+    background-color: #004080; /* Darker on hover */
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reduced padding on small screens */
+    }
+
+    h1 {
+        font-size: 2rem; /* Slightly smaller */
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    p {
+        font-size: 0.95rem; /* Slightly smaller for mobile */
+    }
+}
